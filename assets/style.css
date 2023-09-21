@@ -127,13 +127,12 @@ header {
 	position: absolute;
 }
 #banner .arrow_left {
-	left: 10px;
+	left: -500px;
 	position: relative;
 
 }
 #banner .arrow_right {
 	right: -500px;
-	top: ;
 	position: relative;
 }
 /* Gestion des points du carrousel */
@@ -151,6 +150,8 @@ header {
 	border-radius: 100%;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
 }
+
+
 .dot_selected {
 	background-color: #fff;
 }

@@ -1,3 +1,4 @@
+// tableau slide
 const slides = [
 	{
 		"image":"slide1.jpg",
@@ -16,4 +17,3 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
-

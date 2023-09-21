@@ -21,6 +21,7 @@ const slides = [
 
 
 //variales
+
 const arrow_left = document.querySelector(".arrow_left");
 const arrow_right = document.querySelector(".arrow_right");
 let index = 0; 

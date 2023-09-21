@@ -53,7 +53,7 @@ CreateDot(); //call function
 
 
 function dotSelected (){
-  // selected default dot
+  // dot selected (par défaut)
 const dot = document.querySelector(".dot")
 dot.classList.add("dot_selected");
 index[0] = dot;
@@ -70,7 +70,7 @@ for (let i = 0; i < slides.length; i++) {
 
 // Bouton right
 arrow_right.addEventListener("click", () => {
-  //slide parc
+  //slide
   if (index === slides.length - 1) {
     index = 0;
   } else {
